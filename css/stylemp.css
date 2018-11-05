@@ -1,0 +1,125 @@
+html, body { height: 100%; padding: 0; margin: 0; }
+
+.buttons {  text-decoration: none; width: 50%;  float: left; height: 50%; display: flex;
+justify-content: center; /* align horizontal */
+align-items: center;
+
+}
+#main-buttons{
+    right: 0;
+    left: 0;
+    height:calc(100% - 75.2px);
+    position: absolute;
+   
+}
+
+#div1 { background: #75D8FA;     border-bottom-right-radius: 10px;
+  }
+#div2 { background: #FEFC14;     border-bottom-left-radius: 10px;
+ }
+#div3 { background: #EE8BFF;     border-top-right-radius: 10px;
+ }
+#div4 { background: #DAFFF8;     border-top-left-radius: 10px;
+}
+.cat{
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    color: black;
+    font-size: 100px; 
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+
+  .popup{
+    width: 70%;
+  }
+    #div1, #div2, #div3, #div4{
+        width: 100%
+    }
+    .cat{
+        font-size: 85px
+    }
+}
+.logotext{
+    display: block;
+background-color: black;
+}
+#sub{
+    text-decoration: none;
+     float: right;
+    font-family: 'Lato', sans-serif;
+    padding-top: 21px;
+    color: white;
+    padding-right: 60px;
+    font-size: 20px;
+}
+#editing{
+     float: right;
+    padding-top: 20px;
+    padding-right: 45px;
+    height: 29px;
+    width: 60px
+}
+.logotext img{
+    padding: 3px;
+    padding-top: 7px;
+    padding-left: 10px;
+    height: 60px;
+    width: 300px;
+}
+#logout{
+    float: right;
+    font-family: 'Lato', sans-serif;
+    padding-top: 21px;
+    color: red;
+    padding-right: 77px;
+    font-size: 20px;
+}

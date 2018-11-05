@@ -1,0 +1,95 @@
+body{
+background: linear-gradient(73deg, #46e5ad, #bd62fd, #7ae958);
+background-size: 600% 600%;
+
+-webkit-animation: anim 14s ease infinite;
+-moz-animation: anim 14s ease infinite;
+animation: anim 14s ease infinite;
+}
+@-webkit-keyframes anim {
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+@-moz-keyframes anim {
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+@keyframes anim { 
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+.logotext{
+    text-align: center;
+}
+header img{
+    width: 60px;
+    height: 60px;
+}
+header h1{
+    display: inline-block;
+     font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 350%;
+    margin: 0;
+    margin-top: 18.5px;
+    padding: 25px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+}
+header h3{
+    font-family: 'Open Sans',Arial,Helvetica Neue,sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    font-size: 130%;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.page-wrap{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 67px;
+    margin-bottom: 15px;
+    height: 400px ;
+    width: 600px;
+    background-color: rgba(31, 224, 186,0.6);
+    -webkit-border-radius: 20px;
+   
+
+}
+.error{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    padding-top: 20px;
+    position: absolute;
+    color: red;
+    
+   
+}
+.page-wrap .left-main-content{
+    float: left;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+
+.page-wrap .right-main-content{
+    float: right;
+    margin-right: 45px;
+    margin-top: 32px;
+}
+footer{
+    font-family: 'Lato', sans-serif;
+    font-size: small;
+    text-align: center;
+    margin-top: 90px;
+}
